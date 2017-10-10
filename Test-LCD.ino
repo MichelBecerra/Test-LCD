@@ -46,7 +46,7 @@ int read_LCD_buttons()
  return btnNONE; 
 }
 
-//COOMENT
+//COMMENT
 void setup()
 {
  lcd.begin(16, 2);              // star
