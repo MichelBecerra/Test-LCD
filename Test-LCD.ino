@@ -60,7 +60,7 @@ void loop()
  lcd.print(millis()/1000);      // Output waiting time
  lcd.setCursor(0,1);            // The cursor moves to the beginning of the second line.
  lcd_key = read_LCD_buttons();  // read key
-
+//Switch
  switch (lcd_key)               // display key
  {
    case btnRIGHT:
